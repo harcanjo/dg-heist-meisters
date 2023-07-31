@@ -1,1 +1,4 @@
-# dg-heist-meisters
+# Heist Meisters
+
+Project from Discovering Godot
+

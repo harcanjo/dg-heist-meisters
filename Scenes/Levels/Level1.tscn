@@ -31,7 +31,7 @@ tile_data = PoolIntArray( -196614, 16, 0, -196613, 16, 0, -196612, 16, 0, -19661
 [node name="Player" parent="." index="1" instance=ExtResource( 2 )]
 
 editor/display_folded = true
-position = Vector2( 542.495, 243.296 )
+position = Vector2( 547.91, 153.046 )
 
 [node name="Camera2D" type="Camera2D" parent="Player" index="2"]
 
@@ -93,7 +93,6 @@ _sections_unfolded = [ "Collision" ]
 
 [node name="CanvasModulate" type="CanvasModulate" parent="." index="4"]
 
-visible = false
 color = Color( 0.0745098, 0.129412, 0.352941, 1 )
 
 
