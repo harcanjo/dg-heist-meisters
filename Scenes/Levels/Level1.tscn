@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Tilesets/FloorTiles.tres" type="TileSet" id=1]
 [ext_resource path="res://Scenes/Characters/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/Characters/SecurityCamera.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Tilesets/AutoTileWalls.tres" type="TileSet" id=4]
+[ext_resource path="res://Scenes/Characters/Guard.tscn" type="PackedScene" id=5]
 
 [node name="Level1" type="Node2D" index="0"]
 
@@ -67,10 +68,44 @@ editor/display_folded = true
 
 position = Vector2( 393.314, 289.213 )
 
-[node name="SecurityCamera2" parent="SecurityCameras" index="1" instance=ExtResource( 3 )]
+[node name="SecurityCamera8" parent="SecurityCameras" index="1" instance=ExtResource( 3 )]
+
+position = Vector2( 1420.41, 777.778 )
+
+[node name="SecurityCamera2" parent="SecurityCameras" index="2" instance=ExtResource( 3 )]
 
 position = Vector2( 1156.59, 138.432 )
 rotation = 1.5708
+_sections_unfolded = [ "Transform" ]
+
+[node name="SecurityCamera3" parent="SecurityCameras" index="3" instance=ExtResource( 3 )]
+
+position = Vector2( 1336.74, 521.63 )
+rotation = 2.35619
+_sections_unfolded = [ "Transform" ]
+
+[node name="SecurityCamera7" parent="SecurityCameras" index="4" instance=ExtResource( 3 )]
+
+position = Vector2( 1782.68, 77.3598 )
+rotation = 2.35619
+_sections_unfolded = [ "Transform" ]
+
+[node name="SecurityCamera6" parent="SecurityCameras" index="5" instance=ExtResource( 3 )]
+
+position = Vector2( 885.792, 586.767 )
+rotation = 2.35619
+_sections_unfolded = [ "Transform" ]
+
+[node name="SecurityCamera4" parent="SecurityCameras" index="6" instance=ExtResource( 3 )]
+
+position = Vector2( 523.826, 1143.1 )
+rotation = 5.49779
+_sections_unfolded = [ "Transform" ]
+
+[node name="SecurityCamera5" parent="SecurityCameras" index="7" instance=ExtResource( 3 )]
+
+position = Vector2( 968.493, 1146.12 )
+rotation = 5.49779
 _sections_unfolded = [ "Transform" ]
 
 [node name="Walls" type="TileMap" parent="." index="3"]
@@ -96,6 +131,33 @@ _sections_unfolded = [ "Collision" ]
 
 [node name="CanvasModulate" type="CanvasModulate" parent="." index="4"]
 
+visible = false
 color = Color( 0.0745098, 0.129412, 0.352941, 1 )
+
+[node name="Guards" type="Node2D" parent="." index="5"]
+
+[node name="Guard" parent="Guards" index="0" instance=ExtResource( 5 )]
+
+position = Vector2( 85.16, 776.116 )
+
+[node name="Guard2" parent="Guards" index="1" instance=ExtResource( 5 )]
+
+position = Vector2( 1541.6, 126.547 )
+rotation = 1.46124
+
+[node name="Guard3" parent="Guards" index="2" instance=ExtResource( 5 )]
+
+position = Vector2( 1528.65, 953.776 )
+rotation = -1.36851
+
+[node name="Guard4" parent="Guards" index="3" instance=ExtResource( 5 )]
+
+position = Vector2( 991.965, 548.489 )
+rotation = -4.99895
+
+[node name="Guard5" parent="Guards" index="4" instance=ExtResource( 5 )]
+
+position = Vector2( 162.886, 487.419 )
+rotation = -6.36215
 
 
