@@ -32,6 +32,7 @@ tile_data = PoolIntArray( -196614, 16, 0, -196613, 16, 0, -196612, 16, 0, -19661
 
 editor/display_folded = true
 position = Vector2( 547.91, 153.046 )
+collision_mask = 1
 
 [node name="Camera2D" type="Camera2D" parent="Player" index="2"]
 
@@ -59,6 +60,8 @@ editor_draw_limits = false
 editor_draw_drag_margin = false
 
 [node name="SecurityCameras" type="Node2D" parent="." index="2"]
+
+editor/display_folded = true
 
 [node name="SecurityCamera1" parent="SecurityCameras" index="0" instance=ExtResource( 3 )]
 
