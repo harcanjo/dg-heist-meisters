@@ -26,3 +26,4 @@ func update_motion(delta):
 	else:
 		motion.x = lerp(motion.x, 0, FRICTION)
 
+#17:37 - Furniture
