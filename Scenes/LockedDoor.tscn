@@ -11,6 +11,7 @@ script = ExtResource( 2 )
 
 [node name="Sprite" parent="." index="3"]
 
+editor/display_folded = true
 modulate = Color( 1, 1, 1, 1 )
 texture = ExtResource( 3 )
 
@@ -25,5 +26,7 @@ transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 [node name="NumberPad" parent="CanvasLayer" index="0" instance=ExtResource( 4 )]
 
 visible = false
+
+[connection signal="combination_correct" from="CanvasLayer/NumberPad" to="." method="_on_NumberPad_combination_correct"]
 
 
