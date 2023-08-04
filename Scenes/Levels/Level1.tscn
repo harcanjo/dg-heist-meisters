@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scripts/Navigation2D.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/Destinations.gd" type="Script" id=2]
@@ -13,6 +13,7 @@
 [ext_resource path="res://Scripts/VisionMode.gd" type="Script" id=11]
 [ext_resource path="res://Scenes/Characters/Guard.tscn" type="PackedScene" id=12]
 [ext_resource path="res://Scenes/CombinationGenerator.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Theme.tres" type="Theme" id=14]
 
 [sub_resource type="NavigationPolygon" id=1]
 
@@ -193,12 +194,9 @@ _sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="LockedDoors" type="Node2D" parent="." index="3"]
 
-editor/display_folded = true
-
 [node name="LockedDoor" parent="LockedDoors" index="0" instance=ExtResource( 5 )]
 
 position = Vector2( 671.859, 1183.47 )
-_sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="LockedDoor2" parent="LockedDoors" index="1" instance=ExtResource( 5 )]
 
@@ -208,7 +206,6 @@ position = Vector2( 288.419, 1503.71 )
 
 position = Vector2( 543.668, 1375.06 )
 rotation = 1.5708
-_sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="Player" parent="." index="4" instance=ExtResource( 6 )]
 
@@ -340,14 +337,13 @@ _sections_unfolded = [ "Collision" ]
 
 [node name="Computers" type="Node2D" parent="." index="8"]
 
-editor/display_folded = true
-
 [node name="Computer" parent="Computers" index="0" instance=ExtResource( 10 )]
 
 position = Vector2( 801.847, 1110.48 )
 rotation = -1.5708
 _sections_unfolded = [ "Collision", "Transform" ]
 combination_length = 3
+lock_group = "1"
 
 [node name="Computer2" parent="Computers" index="1" instance=ExtResource( 10 )]
 
@@ -355,11 +351,11 @@ position = Vector2( 286.779, 1258.05 )
 rotation = 1.5708
 _sections_unfolded = [ "Collision", "Transform" ]
 combination_length = 5
+lock_group = "R&D Office"
 
 [node name="VisionMode" type="CanvasModulate" parent="." index="9"]
 
 editor/display_folded = true
-visible = false
 color = Color( 0.0588235, 0.113725, 0.32549, 1 )
 script = ExtResource( 11 )
 
@@ -403,6 +399,58 @@ position = Vector2( 162.886, 487.419 )
 rotation = -6.36215
 
 [node name="CombinationGenerator" parent="." index="11" instance=ExtResource( 13 )]
+
+[node name="Map Labels" type="Node2D" parent="." index="12"]
+
+[node name="MainOfficeLabel" type="Label" parent="Map Labels" index="0" groups=[
+"labels",
+]]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 682.0
+margin_top = 785.0
+margin_right = 722.0
+margin_bottom = 808.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+theme = ExtResource( 14 )
+text = "Main Office"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Theme" ]
+
+[node name="TVRoomLabel" type="Label" parent="Map Labels" index="1" groups=[
+"labels",
+]]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 211.0
+margin_top = 864.0
+margin_right = 301.0
+margin_bottom = 887.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+theme = ExtResource( 14 )
+text = "TV Room"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Theme" ]
 
 [connection signal="timeout" from="Player/VisionModeTimer" to="Player" method="_on_VisionModeTimer_timeout"]
 
