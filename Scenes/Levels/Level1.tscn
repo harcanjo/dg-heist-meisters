@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Scripts/Navigation2D.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/Destinations.gd" type="Script" id=2]
@@ -14,6 +14,7 @@
 [ext_resource path="res://Scenes/Characters/Guard.tscn" type="PackedScene" id=12]
 [ext_resource path="res://Scenes/CombinationGenerator.tscn" type="PackedScene" id=13]
 [ext_resource path="res://Theme.tres" type="Theme" id=14]
+[ext_resource path="res://Scenes/GUI.tscn" type="PackedScene" id=15]
 
 [sub_resource type="NavigationPolygon" id=1]
 
@@ -356,6 +357,7 @@ lock_group = "R&D Office"
 [node name="VisionMode" type="CanvasModulate" parent="." index="9"]
 
 editor/display_folded = true
+visible = false
 color = Color( 0.0588235, 0.113725, 0.32549, 1 )
 script = ExtResource( 11 )
 
@@ -451,6 +453,8 @@ percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
 _sections_unfolded = [ "Theme" ]
+
+[node name="GUI" parent="." index="13" instance=ExtResource( 15 )]
 
 [connection signal="timeout" from="Player/VisionModeTimer" to="Player" method="_on_VisionModeTimer_timeout"]
 
