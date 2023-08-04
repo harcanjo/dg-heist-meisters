@@ -13,3 +13,5 @@ Project from Discovering Godot
 - [x] Computer, Locked Doors and Map Labels 
 ![CLMLabels](_screenshots/clmlabels.png)
 
+- [x] GUI - Suspicion Container
+![Suspicion Container](_screenshots/suspicioncontainer.png)
