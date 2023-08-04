@@ -412,10 +412,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 682.0
-margin_top = 785.0
-margin_right = 722.0
-margin_bottom = 808.0
+margin_left = 652.0
+margin_top = 842.0
+margin_right = 786.0
+margin_bottom = 865.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -437,10 +437,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 211.0
-margin_top = 864.0
-margin_right = 301.0
-margin_bottom = 887.0
+margin_left = 220.0
+margin_top = 841.0
+margin_right = 310.0
+margin_bottom = 864.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -458,9 +458,9 @@ _sections_unfolded = [ "Theme" ]
 
 [connection signal="timeout" from="Player/VisionModeTimer" to="Player" method="_on_VisionModeTimer_timeout"]
 
-[connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor" method="_on_Computer_combination"]
-
 [connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor3" method="_on_Computer_combination"]
+
+[connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor" method="_on_Computer_combination"]
 
 [connection signal="combination" from="Computers/Computer2" to="LockedDoors/LockedDoor2" method="_on_Computer_combination"]
 
