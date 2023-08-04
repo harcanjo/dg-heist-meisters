@@ -16,6 +16,7 @@ func _ready():
 	Global.Player = self
 	vision_mode = DARK	
 	$Timer.wait_time = disguise_duration
+	update_disguise_display()
 	reveal()
 
 func _process(delta):
@@ -89,4 +90,14 @@ func disguise():
 	velocity_multiplier = disguise_slowdown
 	$Timer.start()
 
+	disguises -=1
+	update_disguise_display()
 	disguised = true
+
+func update_disguise_display():
+	get_tree().call_group("DisguiseDisplay", "update_disguises", disguises)
+
+func collect_briefcase():
+	var loot = Node.new()
+	loot.set_name("briefcase")
+	add_child(loot)
