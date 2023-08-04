@@ -15,3 +15,6 @@ Project from Discovering Godot
 
 - [x] GUI - Suspicion Container
 ![Suspicion Container](_screenshots/suspicioncontainer.png)
+
+- [x] Disguises Risk
+![Disguises Risk](_screenshots/disguisesrisk.png)
