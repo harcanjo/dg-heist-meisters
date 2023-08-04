@@ -3,7 +3,7 @@ extends TextureProgress
 var suspicion = 0
 
 export var suspicion_step = 1 # How much suspicion goes up every time we're seen
-export var suspicion_dropoff = 0.21 # How fast suspicion falls
+export var suspicion_dropoff = 0.25 # How fast suspicion falls
 
 func _process(delta):
 	suspicion -= suspicion_dropoff
@@ -16,4 +16,4 @@ func player_seen():
 		end_game()
 		
 func end_game():
-	get_tree().quit()
+	get_tree().change_scene("res://Scenes/GameOverScreen.tscn")
