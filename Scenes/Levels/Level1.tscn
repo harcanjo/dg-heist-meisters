@@ -216,6 +216,9 @@ rotation = 1.5708
 
 editor/display_folded = true
 position = Vector2( 754.335, 964.799 )
+disguises = 3
+disguise_duration = 5
+disguise_slowdown = 0.25
 
 [node name="Camera2D" type="Camera2D" parent="Player" index="2"]
 
@@ -465,9 +468,9 @@ _sections_unfolded = [ "Theme" ]
 
 [connection signal="timeout" from="Player/VisionModeTimer" to="Player" method="_on_VisionModeTimer_timeout"]
 
-[connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor" method="_on_Computer_combination"]
-
 [connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor3" method="_on_Computer_combination"]
+
+[connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor" method="_on_Computer_combination"]
 
 [connection signal="combination" from="Computers/Computer2" to="LockedDoors/LockedDoor2" method="_on_Computer_combination"]
 
