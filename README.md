@@ -9,3 +9,7 @@ Project from Discovering Godot
 
 - [x] LockedDoor NumberPad 
 ![LockedDoor NumberPad](_screenshots/lockeddoornumberpad.png)
+
+- [x] Computer, Locked Doors and Map Labels 
+![CLMLabels](_screenshots/clmlabels.png)
+

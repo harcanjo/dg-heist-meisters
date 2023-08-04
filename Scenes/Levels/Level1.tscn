@@ -342,8 +342,8 @@ _sections_unfolded = [ "Collision" ]
 position = Vector2( 801.847, 1110.48 )
 rotation = -1.5708
 _sections_unfolded = [ "Collision", "Transform" ]
-combination_length = 3
-lock_group = "1"
+combination_length = 5
+lock_group = "M. Office"
 
 [node name="Computer2" parent="Computers" index="1" instance=ExtResource( 10 )]
 
