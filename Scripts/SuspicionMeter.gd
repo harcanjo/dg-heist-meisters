@@ -13,6 +13,7 @@ func _process(delta):
 func player_seen():
 	suspicion += suspicion_step
 	if suspicion == max_value:
+		print(suspicion)
 		end_game()
 		
 func end_game():

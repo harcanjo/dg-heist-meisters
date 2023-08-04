@@ -20,7 +20,6 @@ transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 
 [node name="SuspicionContainer" type="NinePatchRect" parent="." index="0"]
 
-editor/display_folded = true
 anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
@@ -130,7 +129,7 @@ nine_patch_stretch = false
 script = ExtResource( 5 )
 _sections_unfolded = [ "Textures" ]
 suspicion_step = 1
-suspicion_dropoff = 0.21
+suspicion_dropoff = 0.25
 
 [node name="DisguiseContainer" type="NinePatchRect" parent="." index="1"]
 
