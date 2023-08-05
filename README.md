@@ -18,3 +18,6 @@ Project from Discovering Godot
 
 - [x] Disguises Risk
 ![Disguises Risk](_screenshots/disguisesrisk.png)
+
+- [x] Tutorial Scene
+![Tutorial Scene](_screenshots/tutorial.png)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Scripts/Tutorial.gd" type="Script" id=1]
 [ext_resource path="res://Tilesets/FloorTiles.tres" type="TileSet" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://Lightmaps/torchmap.png" type="Texture" id=10]
 [ext_resource path="res://GFX/Interface/PNG/crossair_blueOutline.png" type="Texture" id=11]
 [ext_resource path="res://SFX/message.wav" type="AudioStream" id=12]
+[ext_resource path="res://Scenes/TutorialGUI.tscn" type="PackedScene" id=13]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -82,6 +83,7 @@ _sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="Player" parent="." index="3" instance=ExtResource( 5 )]
 
+editor/display_folded = true
 position = Vector2( 111.038, 223.926 )
 
 [node name="Camera2D" type="Camera2D" parent="Player" index="7"]
@@ -110,6 +112,8 @@ editor_draw_limits = false
 editor_draw_drag_margin = false
 
 [node name="VisionMode" parent="." index="4" instance=ExtResource( 6 )]
+
+color = Color( 0.0117647, 0.0313726, 0.109804, 1 )
 
 [node name="Briefcase" parent="." index="5" instance=ExtResource( 7 )]
 
@@ -311,6 +315,8 @@ playback_speed = 1.0
 playback/active = false
 playback/repeat = false
 playback/speed = 1.0
+
+[node name="TutorialGUI" parent="." index="14" instance=ExtResource( 13 )]
 
 [connection signal="body_entered" from="Briefcase" to="." method="_on_Briefcase_body_entered"]
 
