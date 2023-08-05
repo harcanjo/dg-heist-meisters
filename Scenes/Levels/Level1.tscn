@@ -24,7 +24,7 @@ vertices = PoolVector2Array( 1165.65, 842.68, 1209.84, 838.996, 1336.3, 840.224,
 polygons = [ PoolIntArray( 0, 1, 2, 3, 4 ), PoolIntArray( 5, 6, 7, 8, 9 ), PoolIntArray( 10, 11, 12, 13 ), PoolIntArray( 14, 15, 9, 8 ), PoolIntArray( 16, 17, 18, 19, 20, 21 ), PoolIntArray( 22, 23, 24, 25 ), PoolIntArray( 26, 23, 22, 27, 28 ), PoolIntArray( 29, 15, 14, 30 ), PoolIntArray( 31, 18, 17, 32, 33 ), PoolIntArray( 34, 29, 30, 35 ), PoolIntArray( 36, 37, 38, 39, 40, 41 ), PoolIntArray( 39, 38, 42, 43 ), PoolIntArray( 44, 43, 42, 5, 45 ), PoolIntArray( 46, 25, 24, 47, 48 ), PoolIntArray( 49, 34, 35, 50 ), PoolIntArray( 51, 52, 53, 54 ), PoolIntArray( 55, 56, 54, 53, 13 ), PoolIntArray( 57, 58, 59, 60, 61 ), PoolIntArray( 62, 46, 48, 63 ), PoolIntArray( 64, 62, 63, 65 ), PoolIntArray( 33, 66, 67, 68 ), PoolIntArray( 61, 69, 70, 71, 11, 10, 57 ), PoolIntArray( 72, 73, 74, 75 ), PoolIntArray( 1, 0, 76, 77 ), PoolIntArray( 78, 79, 80, 6 ), PoolIntArray( 7, 6, 80, 81 ), PoolIntArray( 81, 80, 50, 82 ), PoolIntArray( 82, 50, 35, 83 ), PoolIntArray( 83, 35, 8, 7 ), PoolIntArray( 5, 9, 45 ), PoolIntArray( 44, 45, 33, 84 ), PoolIntArray( 85, 86, 87, 88, 89, 90 ), PoolIntArray( 91, 92, 93, 94 ), PoolIntArray( 95, 96, 97, 98 ), PoolIntArray( 99, 95, 98, 77, 76 ), PoolIntArray( 100, 101, 102, 70, 69 ), PoolIntArray( 13, 12, 103, 104, 105 ), PoolIntArray( 106, 107, 108, 55 ), PoolIntArray( 106, 55, 13, 105 ), PoolIntArray( 109, 105, 104, 26 ), PoolIntArray( 28, 109, 26 ), PoolIntArray( 110, 28, 27 ), PoolIntArray( 111, 110, 27, 46 ), PoolIntArray( 111, 46, 62 ), PoolIntArray( 111, 62, 112 ), PoolIntArray( 113, 111, 112, 114 ), PoolIntArray( 41, 115, 36 ), PoolIntArray( 94, 116, 117, 91 ), PoolIntArray( 118, 119, 20, 19 ), PoolIntArray( 74, 120, 121, 122, 75 ), PoolIntArray( 10, 123, 57 ), PoolIntArray( 100, 69, 122, 121 ), PoolIntArray( 124, 75, 122 ), PoolIntArray( 124, 122, 4, 125 ), PoolIntArray( 3, 125, 4 ), PoolIntArray( 126, 0, 4, 127 ), PoolIntArray( 126, 127, 128, 129 ), PoolIntArray( 129, 128, 130, 131 ), PoolIntArray( 36, 131, 130, 37 ), PoolIntArray( 132, 41, 40, 84 ), PoolIntArray( 84, 40, 44 ), PoolIntArray( 32, 84, 33 ), PoolIntArray( 24, 99, 76, 91, 117 ), PoolIntArray( 24, 117, 133, 47 ), PoolIntArray( 33, 68, 85, 90, 31 ), PoolIntArray( 65, 47, 133, 64 ), PoolIntArray( 64, 133, 134, 114 ), PoolIntArray( 114, 134, 135, 113 ), PoolIntArray( 21, 113, 135, 16 ), PoolIntArray( 88, 21, 20, 89 ) ]
 outlines = [ PoolVector2Array( 67.9236, 581.924, 69.0316, 1140.37, 132.737, 1140.95, 128.665, 1016.33, 377.904, 1019.58, 376.275, 1142.58, 434.684, 1141.48, 436.9, 888.85, 520.003, 885.526, 518.895, 1142.59, 880.115, 1143.7, 885.655, 881.093, 976.514, 883.31, 966.541, 1139.27, 1202.55, 1137.05, 1194.8, 1065.03, 1594.77, 1072.73, 1591.34, 692.181, 1667.46, 697.092, 1673.6, 888.619, 1772.98, 886.354, 1775.28, 624.924, 1733.36, 629.115, 1729.77, 583.013, 1642.39, 582.989, 1655.43, 386.701, 1737.69, 392.84, 1732.78, 503.337, 1782.5, 498.646, 1774.34, 78.2887, 1598.91, 80.5877, 1589.09, 130.925, 1419.66, 128.47, 1417.25, 193.946, 1544.94, 201.312, 1542.48, 265.155, 1417.92, 267.381, 1324.06, 266.021, 1324.06, 140.866, 975.801, 142.227, 973.08, 270.102, 877.853, 270.102, 880.574, 75.568, 133.099, 68.9874, 134.049, 122.443, 390.597, 123.178, 392.802, 454.705, 134.785, 447.354, 133.099, 506.067, 532.317, 494.565, 521.771, 837.928, 433.374, 839.156, 433.374, 587.469 ), PoolVector2Array( 629.305, 122.818, 630.208, 454.037, 843.002, 457.001, 839.002, 325, 711.001, 317, 712.001, 256, 838.002, 254, 838.686, 121.916 ), PoolVector2Array( 882.002, 311, 880.809, 496.457, 567.735, 506.279, 567.735, 583.626, 707.865, 585.85, 759.474, 768.089, 884.629, 773.531, 883.269, 841.549, 1079.28, 841.043, 1082.08, 1087.47, 1158.26, 1098.36, 1165.65, 842.68, 1161.96, 757.966, 1147.6, 710.315, 967.808, 710.978, 969.135, 636.011, 1014.91, 634.021, 1016.24, 572.323, 1158.21, 571.659, 1160.73, 446.119, 966.751, 438.753, 966.751, 312.295 ), PoolVector2Array( 1332.62, 311.068, 1333.85, 439.98, 1203.71, 439.98, 1209.29, 713.632, 1283.6, 711.641, 1288.9, 517.922, 1336.3, 519.784, 1333.85, 753.055, 1202.48, 760.421, 1209.84, 838.996, 1336.3, 840.224, 1337.53, 1029.3, 1413.65, 1030.52, 1474.43, 1028.49, 1474.43, 957.507, 1413.4, 956.18, 1413.94, 818.279, 1468.42, 820.711, 1468.42, 763.166, 1532.79, 760.838, 1534.58, 713.538, 1416.03, 711.741, 1416.03, 629.115, 1532.19, 628.517, 1529.79, 581.815, 1605.18, 581.171, 1606.4, 502.595, 1481.09, 500.881, 1482.32, 315.492 ), PoolVector2Array( 1019.55, 190.076, 1018.64, 391.334, 1091.75, 392.237, 1092.65, 181.954 ), PoolVector2Array( 1213, 184, 1212, 390.001, 1284.88, 392.237, 1284.88, 186.466 ), PoolVector2Array( 124.177, 627.33, 118.038, 826.224, 388.141, 824.996, 391.825, 632.241 ), PoolVector2Array( 177.535, 885.191, 336.364, 886.005, 333.106, 968.271, 177.535, 965.827 ), PoolVector2Array( 632.959, 761.287, 634.319, 962.623, 709.14, 966.704, 709.14, 751.764 ), PoolVector2Array( 1108.17, 325.158, 1107.09, 378.654, 1195.71, 381.747, 1195.7, 327.319 ) ]
 
-[node name="Level1" type="Node2D" index="0"]
+[node name="Level1" type="Node2D"]
 
 _sections_unfolded = [ "Transform" ]
 
@@ -216,7 +216,6 @@ rotation = 1.5708
 
 [node name="Player" parent="." index="4" instance=ExtResource( 6 )]
 
-editor/display_folded = true
 position = Vector2( 93.6604, 280.066 )
 
 [node name="Camera2D" type="Camera2D" parent="Player" index="2"]
@@ -243,13 +242,6 @@ drag_margin_bottom = 0.2
 editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
-
-[node name="VisionModeTimer" type="Timer" parent="Player" index="5"]
-
-process_mode = 1
-wait_time = 1.5
-one_shot = false
-autostart = false
 
 [node name="SecurityCameras" type="Node2D" parent="." index="5"]
 
@@ -476,11 +468,9 @@ margin_bottom = 1758.0
 
 position = Vector2( 1697.46, 992.97 )
 
-[connection signal="timeout" from="Player/VisionModeTimer" to="Player" method="_on_VisionModeTimer_timeout"]
+[connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor" method="_on_Computer_combination"]
 
 [connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor3" method="_on_Computer_combination"]
-
-[connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor" method="_on_Computer_combination"]
 
 [connection signal="combination" from="Computers/Computer2" to="LockedDoors/LockedDoor2" method="_on_Computer_combination"]
 
