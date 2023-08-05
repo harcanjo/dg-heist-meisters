@@ -21,6 +21,7 @@ func update_pointer_position(number):
 	$Tween.interpolate_property(pointer, "position", pointer.position, marker.position, 0.5, Tween.TRANS_SINE, Tween.EASE_IN_OUT)
 	$Tween.start()
 	$AudioStreamPlayer.play()
+	$TutorialGUI/Popup/AnimationPlayer.play("MessageTransition")
 	$TutorialGUI/Popup/Label.text = text[str(number)]
 
 func _on_ObjectiveMove_body_entered(body):
